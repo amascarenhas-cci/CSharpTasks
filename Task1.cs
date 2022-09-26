@@ -6,6 +6,7 @@ namespace CSharpTasks
     {
         static void Main(string[] args)
         {
+            Task5 t5=new Task5();
             Task2 t2=new Task2();
             Task3 t3=new Task3();
             Task4 t4=new Task4();
@@ -28,6 +29,10 @@ namespace CSharpTasks
             Console.WriteLine("Enter a string to be reversed");
             properOrder=Console.ReadLine();
             Console.WriteLine("Reversed String: "+ t4.ReversedString(properOrder));
+
+            Console.WriteLine("Enter size for the array");
+            int arraySize=Convert.ToInt32(Console.ReadLine());
+            t5.TargetIndices(arraySize);
         }
 
         static int calcAge(int age)
