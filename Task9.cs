@@ -13,7 +13,7 @@ namespace CSharpTasks
         public void checkString(string testString)
         {
           testString=testString.ToLower();
-          //Console.WriteLine("FIRST:"+testString[0]);
+         
           for(int i=0;i<testString.Length;i++)
           {
             for(int j=0;j<testString.Length;j++)
