@@ -6,8 +6,10 @@ namespace CSharpTasks
     {
         static void Main(string[] args)
         {
+            Task9 t9=new Task9();
+            string testString;
 
-            Task7 t7=new Task7();
+           /* Task7 t7=new Task7();
             Task8 t8=new Task8();
              int arr1Length,arr2Length;
            
@@ -51,7 +53,12 @@ namespace CSharpTasks
             arr2Length=Convert.ToInt32(Console.ReadLine());
             t8.SearchNumber(arr1Length,arr2Length);
 
-            t7.Deal();
+            t7.Deal();*/
+
+            Console.WriteLine("Enter a string");
+            testString=Console.ReadLine();
+            t9.checkString(testString);
+            
 
         }
 
