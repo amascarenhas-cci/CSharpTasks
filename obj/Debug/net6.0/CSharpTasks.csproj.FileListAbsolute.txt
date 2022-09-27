@@ -1,0 +1,15 @@
+C:\Users\ashwi\projects\CSharpTasks\bin\Debug\net6.0\CSharpTasks.exe
+C:\Users\ashwi\projects\CSharpTasks\bin\Debug\net6.0\CSharpTasks.deps.json
+C:\Users\ashwi\projects\CSharpTasks\bin\Debug\net6.0\CSharpTasks.runtimeconfig.json
+C:\Users\ashwi\projects\CSharpTasks\bin\Debug\net6.0\CSharpTasks.dll
+C:\Users\ashwi\projects\CSharpTasks\bin\Debug\net6.0\CSharpTasks.pdb
+C:\Users\ashwi\projects\CSharpTasks\obj\Debug\net6.0\CSharpTasks.csproj.AssemblyReference.cache
+C:\Users\ashwi\projects\CSharpTasks\obj\Debug\net6.0\CSharpTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashwi\projects\CSharpTasks\obj\Debug\net6.0\CSharpTasks.AssemblyInfoInputs.cache
+C:\Users\ashwi\projects\CSharpTasks\obj\Debug\net6.0\CSharpTasks.AssemblyInfo.cs
+C:\Users\ashwi\projects\CSharpTasks\obj\Debug\net6.0\CSharpTasks.csproj.CoreCompileInputs.cache
+C:\Users\ashwi\projects\CSharpTasks\obj\Debug\net6.0\CSharpTasks.dll
+C:\Users\ashwi\projects\CSharpTasks\obj\Debug\net6.0\refint\CSharpTasks.dll
+C:\Users\ashwi\projects\CSharpTasks\obj\Debug\net6.0\CSharpTasks.pdb
+C:\Users\ashwi\projects\CSharpTasks\obj\Debug\net6.0\CSharpTasks.genruntimeconfig.cache
+C:\Users\ashwi\projects\CSharpTasks\obj\Debug\net6.0\ref\CSharpTasks.dll
