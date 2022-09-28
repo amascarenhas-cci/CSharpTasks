@@ -29,7 +29,7 @@ namespace CSharpTasks
             return number * number * number;
         }
 
-        //Task4
+        //Task4 TimeComplexity:O(n)
         public string ReversedString(string properOrder)
         {
             string reversedString = String.Empty;
@@ -41,7 +41,7 @@ namespace CSharpTasks
             return reversedString;
         }
 
-        //Task5
+        //Task5 TimeComplexity:O(n_squared)
         public void TargetIndices(int arraySize)
         {
             int result, indice1, indice2;

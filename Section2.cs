@@ -15,7 +15,7 @@ namespace CSharpTasks
             return seconds;
         }
 
-        //Task7
+        //Task7 TimeComplexity:O(n)
 
         public void Deal()
         {
@@ -34,7 +34,7 @@ namespace CSharpTasks
 
         }
 
-        //Task8
+        //Task8 TimeComplexity:O(n_squared)
 
         public void SearchNumber(int arr1Length, int arr2Length)
         {
@@ -94,7 +94,7 @@ namespace CSharpTasks
 
         }
 
-        //Task9
+        //Task9 TimeComplexity:O(n_squared)
         public void CheckString(string testString)
         {
             int uniqueCount = 0, duplicateCount = 0;
@@ -116,17 +116,17 @@ namespace CSharpTasks
 
             for (int i = 0; i < testString.Length; i++)
             {
-                int flag = 0;
+                bool isDuplicate = false;
                 for (int j = 0; j < testString.Length; j++)
                 {
                     if ((testString[i] == testString[j]) && (i != j) && (testString[i] != ' '))
                     {
-                        flag = 1;
+                        isDuplicate = true;
                         break;
                     }
 
                 }
-                if (flag == 0)
+                if (!isDuplicate)
                     uniqueCharacters[i] = testString[i];
             }
 
@@ -138,7 +138,7 @@ namespace CSharpTasks
             {
                 Console.Write(item);
             }
-            uniqueCount = unique.Count - 2;
+            uniqueCount = unique.Count - 1;
             Console.WriteLine("\nuniqueCharacterCount:" + uniqueCount);
 
 
@@ -153,7 +153,7 @@ namespace CSharpTasks
             Console.WriteLine("\nduplicateCharacterCount:" + duplicateCount);
         }
 
-        //Task10
+        //Task10 TimeComplexity:O(n_squared)
 
         public void AnalyzeJson(int jsonFields)
         {
